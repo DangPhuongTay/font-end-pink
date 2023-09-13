@@ -9,27 +9,20 @@
 body{
     width: 100%;
     background-color:  #F9F5F6;
-    
 }
-main{
-   margin-top: 89px;
-   padding: 10px 100px;
+.test{
+    height: 1000px;
 }
 header{
-    top: 0;
-    left: 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:20px 100px;
-    margin: auto;
-    position: fixed;
-    background-color: #F9F5F6;
+    padding:20px 50px;
+    max-width: 1440px;
 }
 .header-logo{
     color: #F2BED1;
-    width: 135px;
 }
 .header-navbar{
     display: flex;
@@ -65,74 +58,144 @@ header{
     font-size:25px;
     color: #000;
 }
-/* Slider css */
-.slider{
-    width: 100%;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.slider-content{
-    position: relative;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 178px);
-}
-.slider-content-image{
-    width: 70%;
-    height: 100%;
 
-}
-.slider-content-image-btn{
-    position: absolute;
+
+.product-featured{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    left: 0;
-    top: 50%;
+    height: calc(100vh - 300px);
+
+}
+.product-featured-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.slider-content-image .image-slider{
     position: relative;
-    width:100%;
+    width: 100%;
     height: 100%;
-    top: calc(25% - 89px);
-}
+    justify-content: space-between;
 
-.slider-content-image .image-slider img{
-position: absolute;
-  width: 80%;
-  height: 100%;
-  right: -5%;
-  border-radius: 20px;
 }
+.feature-img{
+    width: 200px;
+    height: 200px;
+    top: 127px;
+    left: 30px;
+    border-radius: 40px;
 
-.slider-content-text{
-    position: absolute;
-    left: -5%;
-    top: 25%; 
 }
-.slider-content-text-main{
-    background-color: #f79fbfaa;
-    width: 300px;
+.featured-left{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:15px 15px;
-    border-radius: 50px;
-    font-size: 30px;
-    font-weight: 600;
+    flex-direction: column;
+    gap: 10%;
+}
+.feature-left-item{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+.featured-left-item-content{
+    margin-left: 20px;
+}
+.featured-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10%;
+}
+.feature-right-item{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.featured-left-item-price{
+    font-weight: 501;
+    width: 100%;
+    text-align: center;
+}
+.featured-right-item-price{
+    font-weight: 501;
+    width: 100%;
+    text-align: center;
+}
+.featured-right-item-content{
+    margin-right: 20px;
+}
+.featured-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    height:100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.featured-center-title{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.featured-center-btn{
+    background: #F2BED1;
+    width: 100px;
+    height: 80px;
+    top: 466px;
+    left: 618px;
+    border-radius: 20px;
+    border: none;
+
 }
 
-.slider-content-text-link{
-    float: right;
-    color: #000;
-    font-size: 16px;
-    font-weight: 600;
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 50px;
+    background: linear-gradient(180deg, rgba(253, 206, 223, 0) 20.83%, #FDCEDF 88.54%);
+
 }
-.slider-content-image-btn-left ion-icon{
-    font-size: 50px;
-    color: #f8528f;
+.footer-left{
+    width: 70%;
+    display: flex;
+}
+.footer-left-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444343;
+    margin-bottom: 10px;
+}
+.footer-left-item{
+    margin: 20px;
+}
+.footer-list-link{
+    width: 100%; 
+    
+}
+.footer-item-link a{
+    color: #353434;
+}
+.footer-right{
+    width: 30%;
+}
+.footer-right-title{
+   margin-bottom: 10px;
+}
+.footer-right-input{
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    padding: 5px 20px;
+    
 }
