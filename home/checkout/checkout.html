@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/checkout/checkout.css" />
+        <link rel="stylesheet" href="/style.css" />
+        <title>CheckOut</title>
+      </head>
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+     <img src="/img/logo.png" alt="logo">
+    </div>
+    <div class="header-navbar">
+      <ul class="header-list-link-page">
+        <li class="header-link-page"><a href="">HOME</a></li>
+        <li class="header-link-page"><a href="category.html">All CATEGORY</a></li>
+        <li class="header-link-page"><a href="#">NEW ARRIVALS</a></li>
+        <li class="header-link-page"><a href="#">FUTURE PRODUCT</a></li>
+        <li class="header-link-page"><a href="#">WISHLIST</a></li>
+        <li class="header-link-page"><a href="#">FASHION</a></li>
+        <li class="header-link-page"><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="header-list-control">
+      <div class="header-control">
+        <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+      </div>
+      <div class="header-control">
+        <a href="#"><ion-icon name="cart-outline"></ion-icon></a>
+      </div>
+      <div class="header-control">
+        <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+      </div>
+
+      <button id="burger-main">
+        <div class="burger-box">
+          <div class="burger"></div>
+        </div>
+      </button>
+    </div>
+  </header>
+    <main>
+        <section class="section-checkout">
+            <h1 class="checkout-title">CHECK OUT</h1>
+            <hr>
+        <div class="checkout">
+            <div class="checkout-left">
+                <h3 class="checkout-left-title">Basic Information</h3>
+                <hr>
+                <input type="text" placeholder="Name" class="checkout-left-input first" required>
+                <input type="text" placeholder="Email Address" class="checkout-left-input" required>
+                <input type="text" placeholder="Phone Number" class="checkout-left-input" required>
+                <input type="text" placeholder="Pin Code ( Zip Code )" class="checkout-left-input" required>
+                <input type="text" placeholder="Full Address" class="checkout-left-input" required>
+            </div>
+            <div class="checkout-right">
+                <h3 class="checkout-right-title">Item Total Amount</h3>
+                <hr>
+                <div class="checkout-right-content">
+                    <p>Cart Subtotal</p>
+                    <p>$45.99</p>
+                </div>
+                <div class="checkout-right-content">
+                    <p>Shipping and Handling</p>
+                    <p>Free Shipping</p>
+                </div>
+                <div class="checkout-right-content">
+                    <p>Order Total</p>
+                    <p>$45.99</p>
+                </div>
+                <div class="checkout-right-payment">
+                    <h3 class="checkout-right-title">Payment Method</h3>
+                    <hr>
+                    <form action="" class="checkout-right-from">
+                        <input type="radio" name="cash"><label>Cash on Delivery</label><br>
+                        <input type="radio" name="cash"><label>Online Payment</label><br>
+                        <input type="radio" name="online"><label>Paypal</label><br>
+                        <input type="radio" name="online"><label>Debit or Credit Card</label><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <button class="checkout-btn">Place Order</button>
+        <hr>
+        </section>
+    </main>
+    <footer>
+      <div class="logo">
+        <img src="/logo.png" alt="">
+      </div>
+      <div class="list-icon">
+        <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
+        <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+        <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+        <ion-icon name="logo-youtube" role="img" class="md hydrated" aria-label="logo youtube"></ion-icon>
+      </div>
+    </footer>
+</body>
+<script src="/main.js"></script>
+</html>
