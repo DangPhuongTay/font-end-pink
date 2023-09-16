@@ -5,8 +5,6 @@ document.onscroll = function () {
     navBar = document.querySelector(".header-navbar");
     if (scroll > 87) {
       document.querySelector("header").style.background = "white";
-      document.querySelector("header").style.boxShadow =
-        " 0 3px 3px #ced4da";
     } else {
       document.querySelector("header").style.background = "transparent";
       document.querySelector("header").style.boxShadow = " none";
