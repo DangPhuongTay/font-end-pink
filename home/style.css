@@ -511,3 +511,42 @@ position: absolute;
 .register-right-footer{
     color: #E184A6 !important;
 }
+
+/* checkout */
+.section-checkout{
+    margin-top: 100px;
+}
+.checkout-title{
+    display: flex;
+    justify-content: center;
+}
+.checkout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkout-left-title-hr{
+    padding-bottom: 20px;
+}
+.checkout-right,
+.checkout-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.checkout-left-title hr{
+    padding-bottom: 20px;
+}
+.checkout-left-input{
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 0.5px solid gray;
+    outline: 0;
+    padding: 7px 0;
+    background: transparent;
+    
+}
+.checkout-left-input.first{
+    padding-top: 30px;
+}
