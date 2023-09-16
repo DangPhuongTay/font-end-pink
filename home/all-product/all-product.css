@@ -66,15 +66,3 @@
     height: 2px;
     background-color: #000;
 }
-/* btn bottom */
-.bottom-btn ion-icon {
-    position: fixed;
-    display: inline-block;
-    padding: 10px;
-    font-size: 27px;
-    bottom: 30px;
-    left: 13px;
-    color: white;
-    border-radius: 50%;
-    background: #f8528f;
-  }
