@@ -51,7 +51,6 @@
     <main>
         <section class="section-checkout">
             <h1 class="checkout-title">CHECK OUT</h1>
-            <hr>
         <div class="checkout">
             <div class="checkout-left">
                 <h3 class="checkout-left-title">Basic Information</h3>
@@ -67,29 +66,31 @@
                 <hr>
                 <div class="checkout-right-content">
                     <p>Cart Subtotal</p>
-                    <p>$45.99</p>
+                    <p class="checkout-right-content-fw">$45.99</p>
                 </div>
                 <div class="checkout-right-content">
                     <p>Shipping and Handling</p>
-                    <p>Free Shipping</p>
+                    <p class="checkout-right-content-fw">Free Shipping</p>
                 </div>
-                <div class="checkout-right-content">
+                <div class="checkout-right-content first">
                     <p>Order Total</p>
-                    <p>$45.99</p>
+                    <p class="checkout-right-content-fw">$45.99</p>
                 </div>
                 <div class="checkout-right-payment">
                     <h3 class="checkout-right-title">Payment Method</h3>
                     <hr>
                     <form action="" class="checkout-right-from">
-                        <input type="radio" name="cash"><label>Cash on Delivery</label><br>
-                        <input type="radio" name="cash"><label>Online Payment</label><br>
-                        <input type="radio" name="online"><label>Paypal</label><br>
-                        <input type="radio" name="online"><label>Debit or Credit Card</label><br>
+                        <input type="radio" name="cash" required><label> Cash on Delivery</label><br>
+                        <input type="radio" name="cash"required><label> Online Payment</label><br>
+                        <input type="radio" name="online cash" class="checkout-right-cash"required><label> Paypal</label><br>
+                        <input type="radio" name="online cash" class="checkout-right-cash"required><label> Debit or Credit Card</label><br>
                     </form>
                 </div>
             </div>
         </div>
-        <button class="checkout-btn">Place Order</button>
+        <div class="checkout-btn-box">
+          <button class="checkout-btn">Place Order</button>
+        </div>
         <hr>
         </section>
     </main>
