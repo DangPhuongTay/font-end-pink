@@ -18,8 +18,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="category.css" />
-    <title>Category</title>
+    <link rel="stylesheet" href="/user/profile.css" />
+    <title>product detail</title>
   </head>
   <body>
     <header>
@@ -63,49 +63,46 @@
         </div>
     </header>
     <main>
-        <section class="category">
-          <div class="category-header-box">
-            <a href=""><span class="category-header">CATEGORY</span></a>
-           </div>
-          <div class="category-list">
-            <div class="category-item">
-              <div class="category-image">
-                <img src="/img/mini-bag.png" alt="">
-              </div>
-              <div class="category-content">
-                <div class="category-content-name">Man</div>
-                <div class="category-content-link"> 
-                  <a href=""><span class="category-content-link-main">DISCOVER MORE</span></a>
+        <section class="profile">
+            
+            <div class="profile-container">
+                <div class="profile-left">
+                    <div class="profile-image">
+                        <img src="/img/avatar.jpg" alt="">
+                    </div>
+                    <div class="profile-name">
+                        <p>Lê Minh Tiến</p>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="category-item">
-              <div class="category-image">
-                <img src="/img/big-bag.png" alt="">
-              </div>
-              <div class="category-content">
-                <div class="category-content-name">Man</div>
-                <div class="category-content-link"> 
-                  <a href=""><span class="category-content-link-main">DISCOVER MORE</span></a>
+                <div class="profile-right">
+                    <div class="profile-change-pass">
+                      <div class="profile-header">ACCOUNT SETTING</div><a href="/user/changepass.html">Change password</a>
+                    </div>
+                    <div class="profile-info">
+                        <form action="">
+                            <div class="profile-item">
+                                <input type="text" placeholder="User Name">
+                                <input type="text" placeholder="Email Address">
+                            </div>
+                            <div class="profile-item">
+                                <input type="text" placeholder="Phone Number">
+                                <input type="text" placeholder="Pin Code">
+                            </div>
+                            <div class="profile-item item-3">
+                                <input type="text" placeholder="Your Address">
+                            </div>
+                            <div class="profile-item">
+                                <input type="submit" value="SAVE">
+                            </div>
+                        </form>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="category-item">
-              <div class="category-image">
-                <img src="/img/belt1.png" alt="">
-              </div>
-              <div class="category-content">
-                <div class="category-content-name">Man</div>
-                <div class="category-content-link"> 
-                  <a href=""><span class="category-content-link-main">DISCOVER MORE</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        </section>
     </main>
     <footer>
       <div class="logo">
-        <img src="/img/logo.png" alt="">
+        <img src="/logo.png" alt="">
       </div>
       <div class="list-icon">
         <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
@@ -118,6 +115,5 @@
       <ion-icon name="chevron-up-outline"></ion-icon>
     </a>
   </body>
-
   <script src="/main.js"></script>
 </html>

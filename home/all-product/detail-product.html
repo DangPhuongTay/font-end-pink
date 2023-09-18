@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/all-product/detail-product.css" />
+    <title>product detail</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+       <img src="/img/logo.png" alt="logo">
+      </div>
+      <div class="header-navbar">
+        <ul class="header-list-link-page">
+          <li class="header-link-page"><a href="#">HOME</a></li>
+          <li class="header-link-page"><a href="/category/category.html">All CATEGORY</a></li>
+          <li class="header-link-page"><a href="#">NEW ARRIVALS</a></li>
+          <li class="header-link-page"><a href="#">FUTURE PRODUCT</a></li>
+          <li class="header-link-page"><a href="#">WISHLIST</a></li>
+          <li class="header-link-page"><a href="#">FASHION</a></li>
+          <li class="header-link-page"><a href="#">CONTACT</a></li>
+            <li class="header-link-page"><a href="/checkout/checkout.html">CHECKOUT</a></li>
+        </ul>
+      </div>
+      <div class="header-list-control">
+        <div class="header-control">
+          <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+        </div>
+        <div class="header-control">
+          <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
+        </div>
+        <div class="header-control">
+          <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+        </div>
+
+        <button id="burger-main">
+          <div class="body-blur"></div>
+          <div class="burger-box">
+            <div class="burger"></div>
+          </div>
+        </button>
+      </div>
+
+        <div class="subscribe">
+          <ion-icon name="person-circle-outline"></ion-icon>
+          Subscribe
+        </div>
+    </header>
+    <main>
+        <section class="product-detail">
+            <div class="product-detail-header">
+                <div class="product-detail-header-link">PRODUCT / DETAIL</div>
+                <div class="product-detail-header-back">BACK</div>
+            </div>
+            <div class="product-detail-container">
+                <div class="product-detail-image">
+                   <div class="product-detail-image-main">
+                     <img src="/img/belt.png" alt="">
+                   </div>
+                    <div class="product-detail-image-list">
+                        <div class="product-detail-image-item">
+                            <img src="/img/belt1.png" alt="">
+                        </div>
+                        <div class="product-detail-image-item">
+                            <img src="/img/belt1.png" alt="">
+                        </div>
+                        <div class="product-detail-image-item">
+                            <img src="/img/belt1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-detail-content">
+                 <div class="product-detail-info">
+                    <div class="product-detail-content-name">BELT BELTBELT</div>
+                    <div class="product-detail-content-brand"><p>NIKE</p></div>
+                    <div class="product-detail-content-small-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, distinctio.</div>
+                    <div class="product-detail-content-price">
+                        <div class="product-detail-content-price-original">40$</div>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <div class="product-detail-content-price-seling">30$</div>
+                    </div>
+                    <div class="product-detail-content-color">
+                        <div class="product-detail-content-color-item">
+                            <a href=""><p>red</p></a>
+                        </div>
+                        <div class="product-detail-content-color-item">
+                           <a href=""> <p>green</p></a>
+                        </div>
+                    </div>
+                    <div class="product-detail-content-quanity">
+                        <div class="number-input">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="product-detail-btn">
+                        <div class="product-detail-btn-cart">
+                            ADD TO CART
+                        </div>
+                        <div class="product-detail-btn-wish">
+                            ADD TO WISHLIST
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-detail-content-des">
+              <div class="product-detail-content-des-header-box">
+                <p class="product-detail-content-des-header">DESCRIPTION</p>
+              </div>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptas ducimus optio debitis,
+                   asperiores, dolores rerum ab laboriosam ipsum nesciunt assumenda cupiditate sequi
+                   adipisci mollitia, aliquid consectetur. Deserunt, error nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eum non nobis nemo asperiores, optio praesentium ab cumque fuga soluta? Expedita officiis nostrum nisi autem, totam ullam illum alias sequi fuga possimus, perferendis temporibus iste minima amet ipsum provident, ex iure aliquid adipisci atque laborum dicta a. Corrupti excepturi dolor magni voluptate impedit quis esse alias illum voluptas reiciendis molestiae delectus explicabo dignissimos autem amet eveniet beatae, quod assumenda incidunt vero corporis? Optio molestias vel nesciunt voluptatum laboriosam laudantium ipsa architecto velit ut tempora, provident amet. Suscipit molestiae possimus quam ea aperiam at eveniet ipsa. Quam, ratione tenetur blanditiis possimus culpa facere dignissimos quaerat dolorum labore tempore, maxime libero et nisi qui quidem voluptatem commodi totam, eligendi reiciendis tempora vel laborum? Ullam dignissimos commodi facere temporibus eaque voluptates, ab molestias sequi, obcaecati explicabo earum. Corporis recusandae, quaerat beatae autem reiciendis aspernatur, itaque assumenda odit nulla, optio exercitationem numquam quae asperiores qui laborum est nostrum corrupti cumque provident fugit quam! Voluptates consequatur temporibus placeat porro nostrum accusantium voluptatem facere eos? Reprehenderit ducimus architecto quaerat tempora, excepturi expedita inventore possimus odio soluta repudiandae magnam porro quos distinctio, enim quisquam non culpa consequuntur illum quis fuga necessitatibus! Dignissimos quasi vitae laudantium enim!</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+      <div class="logo">
+        <img src="/logo.png" alt="">
+      </div>
+      <div class="list-icon">
+        <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
+        <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+        <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+        <ion-icon name="logo-youtube" role="img" class="md hydrated" aria-label="logo youtube"></ion-icon>
+      </div>
+    </footer>
+    <a href="#head" class="bottom-btn">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+  </body>
+  <script src="/main.js"></script>
+</html>
