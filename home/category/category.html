@@ -17,123 +17,107 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="category.css" />
     <title>Category</title>
   </head>
   <body>
     <header>
       <div class="header-logo">
-        <h5>DDT</h5>
+       <img src="/img/logo.png" alt="logo">
       </div>
       <div class="header-navbar">
         <ul class="header-list-link-page">
-          <li class="header-link-page"><a href="home.html">HOME</a></li>
-          <li class="header-link-page"><a href="#">All CATEGORY</a></li>
+          <li class="header-link-page"><a href="#">HOME</a></li>
+          <li class="header-link-page"><a href="/category/category.html">All CATEGORY</a></li>
           <li class="header-link-page"><a href="#">NEW ARRIVALS</a></li>
           <li class="header-link-page"><a href="#">FUTURE PRODUCT</a></li>
           <li class="header-link-page"><a href="#">WISHLIST</a></li>
-          <li class="header-link-page"><a href="all-product.html">FASHION</a></li>
+          <li class="header-link-page"><a href="#">FASHION</a></li>
           <li class="header-link-page"><a href="#">CONTACT</a></li>
+            <li class="header-link-page"><a href="/checkout/checkout.html">CHECKOUT</a></li>
         </ul>
-        <div class="header-navbar-close">
-          <ion-icon name="close-outline"></ion-icon>
-        </div>
       </div>
       <div class="header-list-control">
         <div class="header-control">
           <a href="#"><ion-icon name="search-outline"></ion-icon></a>
         </div>
         <div class="header-control">
-          <a href="#"><ion-icon name="cart-outline"></ion-icon></a>
+          <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
         </div>
         <div class="header-control">
           <a href="#"><ion-icon name="person-outline"></ion-icon></a>
         </div>
+
+        <button id="burger-main">
+          <div class="body-blur"></div>
+          <div class="burger-box">
+            <div class="burger"></div>
+          </div>
+        </button>
       </div>
+
+        <div class="subscribe">
+          <ion-icon name="person-circle-outline"></ion-icon>
+          Subscribe
+        </div>
     </header>
     <main>
-        <section class="Category">
-          <div class="category-header">
-            <div class="category-header-main">ALL CATEGORIES</div>
-            <div class="category-header-link">Home / All Categories</div>
+        <section class="category">
+          <div class="category-header-box">
+            <a href=""><span class="category-header">FEATURED</span></a>
+           </div>
+          <div class="category-list">
+            <div class="category-item">
+              <div class="category-image">
+                <img src="/img/mini-bag.png" alt="">
+              </div>
+              <div class="category-content">
+                <div class="category-content-name">Man</div>
+                <div class="category-content-link"> 
+                  <a href=""><span class="category-content-link-main">DISCOVER MORE</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="category-item">
+              <div class="category-image">
+                <img src="/img/big-bag.png" alt="">
+              </div>
+              <div class="category-content">
+                <div class="category-content-name">Man</div>
+                <div class="category-content-link"> 
+                  <a href=""><span class="category-content-link-main">DISCOVER MORE</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="category-item">
+              <div class="category-image">
+                <img src="/img/belt1.png" alt="">
+              </div>
+              <div class="category-content">
+                <div class="category-content-name">Man</div>
+                <div class="category-content-link"> 
+                  <a href=""><span class="category-content-link-main">DISCOVER MORE</span></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="category-header-content">
-            <div class="category-header-item">
-              <div class="category-header-img">
-                <img src="/hinh1.jpg" alt="">
-              </div>
-              <div class="category-header-name">
-                Woman
-              </div>
-            </div>
-            <div class="category-header-item">
-              <div class="category-header-img">
-                <img src="/hinh1.jpg" alt="">
-              </div>
-              <div class="category-header-name">
-                Woman
-              </div>
-            </div>
-            <div class="category-header-item">
-              <div class="category-header-img">
-                <img src="/hinh1.jpg" alt="">
-              </div>
-              <div class="category-header-name">
-                Woman
-              </div>
-            </div>
-          </div>
-          <div class="category-line"><div class="category-line-item"></div></div>
-        </section>
     </main>
     <footer>
-      <div class="footer">
-        <div class="footer-left">
-          <div class="footer-left-item">
-            <p class="footer-left-title">Quick links</p>
-            <ul class="footer-list-link">
-              <li class="footer-item-link"><a href="">Home</a></li>
-              <li class="footer-item-link"><a href="">About Us</a></li>
-              <li class="footer-item-link"><a href="">Contact Us</a></li>
-              <li class="footer-item-link"><a href="">Blogs</a></li>
-            </ul>
-          </div>
-          <div class="footer-left-item">
-            <p class="footer-left-title">Shop Now</p>
-            <ul class="footer-list-link">
-              <li class="footer-item-link"><a href="">Collections</a></li>
-              <li class="footer-item-link"><a href="">Trending product</a></li>
-              <li class="footer-item-link"><a href="">New Arrivals</a></li>
-              <li class="footer-item-link"><a href="">Feature products</a></li>
-            </ul>
-          </div>
-          <div class="footer-left-item">
-            <p class="footer-left-title">Help</p>
-            <ul class="footer-list-link">
-              <li class="footer-item-link"><a href="">FAQs</a></li>
-              <li class="footer-item-link"><a href="">Order tracking</a></li>
-              <li class="footer-item-link"><a href="">Delivery Policy</a></li>
-              <li class="footer-item-link"><a href="">Support</a></li>
-            </ul>
-          </div>
-          <div class="footer-left-item">
-            <p class="footer-left-title">Connect</p>
-            <ul class="footer-list-link">
-              <li class="footer-item-link"><a href="">Address</a></li>
-              <li class="footer-item-link"><a href="">Number phone</a></li>
-              <li class="footer-item-link"><a href="">Email</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-right">
-          <p class="footer-right-title">
-            Please write to email in DTTFashion website
-          </p>
-          <input type="text" class="footer-right-input" placeholder="Email" />
-        </div>
+      <div class="logo">
+        <img src="/img/logo.png" alt="">
+      </div>
+      <div class="list-icon">
+        <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
+        <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+        <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+        <ion-icon name="logo-youtube" role="img" class="md hydrated" aria-label="logo youtube"></ion-icon>
       </div>
     </footer>
+    <a href="#head" class="bottom-btn">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
   </body>
+
   <script src="/main.js"></script>
 </html>
