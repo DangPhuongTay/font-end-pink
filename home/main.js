@@ -19,6 +19,7 @@ document.onscroll = function () {
   
   let burger = document.querySelector(".burger-box");
   let body = document.querySelector("body");
+
   
   burger.onclick = function () {
     body.classList.toggle("active");
