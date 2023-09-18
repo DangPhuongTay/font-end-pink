@@ -572,7 +572,10 @@ footer {
     padding: 50px 70px 50px 70px;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(180deg, rgba(210, 67, 62, 0) 0, #F2BED1 100%);
+    /* background: linear-gradient(180deg, rgba(210, 67, 62, 0) 0, #F2BED1 100%); */
+    background: rgb(240,111,178);
+    background: linear-gradient(90deg,  #F2BED1,9%, #F2BED1 83%);
+
   }
   footer .logo img{
     width: 170px;
