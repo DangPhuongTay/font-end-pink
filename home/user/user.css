@@ -9,19 +9,18 @@
 .login{
     display: flex;
     position: relative;
-    background-color: #FDCEDF82;
+    background-color: #ffffff;
 }
 .login-title{
     font-size: 80px;
-    line-height: 133px;
-    margin-bottom: 10px;
 }
-.login-left-title {
-    font-size: 25px;
+.login-title-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
     font-style: italic;
-    line-height: 44px;
-    margin-top: 30px;
-    padding-right: 10px;
+    margin-bottom: 15px;
 }
 .login-left-float{
     float: right;
@@ -31,10 +30,9 @@
     
 }
 .login-left-img{
-    width: 281px;
-    height: 193px;
-    top: 30%;
-    position: absolute;
+    width: 362px;
+    height: 500px;
+    
 }
 .login-right{
     display: flex;
@@ -76,13 +74,23 @@
 .login-right-link a{
     color: #000;
 }
-.login-right-btn{
-    background: linear-gradient(0deg, #F2BED1, #F2BED1);
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: 2px;
-    margin-top: 10px;
-}
+.login-link:hover{
+    scale: 1.01;
+  }
+  .login-link{
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 14px 24px;
+    background-color:  #000000;
+    transition: all .2s;
+    margin: 20px 0;
+    text-align: center;
+    width: 50%;
+    justify-content: end;
+  }
+  .login-link a {
+    color: white;
+  }
 /* register */
 .register-container{
     display: flex;
@@ -95,7 +103,6 @@
 .register{
     display: flex;
     position: relative;
-    background-color: #FDCEDF82;
 }
 .register-title{
     font-size: 80px;
@@ -113,13 +120,7 @@
 .register-link span{
     margin: 0 20px;
 }
-.register-left-title {
-    font-size: 25px;
-    font-style: italic;
-    line-height: 44px;
-    margin-top: 30px;
-    padding-right: 10px;
-}
+
 .register-left-float{
     float: right;
     font-size: 25px;
@@ -128,10 +129,8 @@
     
 }
 .register-left-img{
-    width: 281px;
-    height: 193px;
-    top: 30%;
-    position: absolute;
+    width: 362px;
+    height: 500px;
 }
 .register-right{
     display: flex;
@@ -178,7 +177,7 @@
 .register-right-link-btn{
     display: flex;
     padding: 3px;
-    box-shadow: 2px 2px 5px #F2BED1;
+    box-shadow: 1px 1px 2px #33333385;
 }
 .register-right-logo{
     width: 20px;
@@ -197,13 +196,23 @@
 .register-right-link a{
     color: #000;
 }
-.register-right-btn{
-    background: linear-gradient(0deg, #F2BED1, #F2BED1);
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: 2px;
-    margin: 15px 0;
-}
+.register-link-btn:hover{
+    scale: 1.01;
+  }
+  .register-link-btn{
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 14px 24px;
+    background-color:  #000000;
+    transition: all .2s;
+    margin: 20px 0;
+    text-align: center;
+    width: 50%;
+    justify-content: end;
+  }
+  .register-link-btn a {
+    color: white;
+  }
 .register-right-bottom{
     width: 100%;
     display: flex;
@@ -214,5 +223,5 @@
     font-size: 14px;
 }
 .register-right-footer{
-    color: #E184A6 !important;
+    font-weight: 600;
 }

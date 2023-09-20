@@ -19,57 +19,134 @@
           rel="stylesheet"
         />
         <link rel="stylesheet" href="/style.css" />
-        <link rel="stylesheet" href="/cart.css" />
+        <link rel="stylesheet" href="/cart/cart.css" />
         <title>Cart</title>
       </head>
 </head>
 <body>
-    <header>
-        <div class="header-logo">
-         <img src="/img/logo.png" alt="logo">
+  <header>
+    <div class="header-logo">
+     <img src="/img/logo.png" alt="logo">
+    </div>
+    <div class="header-navbar">
+      <ul class="header-list-link-page">
+        <li class="header-link-page"><a href="#">HOME</a></li>
+        <li class="header-link-page"><a href="/category/category.html">All CATEGORY</a></li>
+        <li class="header-link-page"><a href="#">NEW ARRIVALS</a></li>
+        <li class="header-link-page"><a href="#">FUTURE PRODUCT</a></li>
+        <li class="header-link-page"><a href="#">WISHLIST</a></li>
+        <li class="header-link-page"><a href="#">FASHION</a></li>
+        <li class="header-link-page"><a href="#">CONTACT</a></li>
+          <li class="header-link-page"><a href="/checkout/checkout.html">CHECKOUT</a></li>
+      </ul>
+    </div>
+    <div class="header-list-control">
+      <div class="header-control">
+        <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+      </div>
+      <div class="header-control">
+        <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
+      </div>
+      <div class="header-control">
+        <a href="/user/register.html"><ion-icon name="person-outline"></ion-icon></a>
+      </div>
+
+      <button id="burger-main">
+        <div class="body-blur"></div>
+        <div class="burger-box">
+          <div class="burger"></div>
         </div>
-        <div class="header-navbar">
-          <ul class="header-list-link-page">
-            <li class="header-link-page"><a href="#">HOME</a></li>
-            <li class="header-link-page"><a href="/category/category.html">All CATEGORY</a></li>
-            <li class="header-link-page"><a href="#">NEW ARRIVALS</a></li>
-            <li class="header-link-page"><a href="#">FUTURE PRODUCT</a></li>
-            <li class="header-link-page"><a href="#">WISHLIST</a></li>
-            <li class="header-link-page"><a href="#">FASHION</a></li>
-            <li class="header-link-page"><a href="#">CONTACT</a></li>
-          </ul>
-        </div>
-        <div class="header-list-control">
-          <div class="header-control">
-            <a href="#"><ion-icon name="search-outline"></ion-icon></a>
-          </div>
-          <div class="header-control">
-            <a href="#"><ion-icon name="cart-outline"></ion-icon></a>
-          </div>
-          <div class="header-control">
-            <a href="/user/register.html"><ion-icon name="person-outline"></ion-icon></a>
-          </div>
-  
-          <button id="burger-main">
-            <div class="burger-box">
-              <div class="burger"></div>
-            </div>
-          </button>
-        </div>
-  
-          <div class="subscribe">
-            <ion-icon name="person-circle-outline"></ion-icon>
-            Subscribe
-          </div>
-      </header>
+      </button>
+    </div>
+
+      <div class="subscribe">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        Subscribe
+      </div>
+  </header>
       <main>
         <section class="cart">
-          <h1 class="cart-title">Your Cart</h1>
-          <div class="cart-left">
-            
-          </div>
-          <div class="cart-right">
-            
+          <div class="cart-title">Your Cart</div>
+          <div class="cart-content">
+            <div class="cart-left">
+              <div class="cart-left-header">
+                <div class="cart-left-header-fw">Product</div>
+                <a href="#">
+                  <div class="trending-content-link"><p>Delete</p></div>
+                </a>
+              </div>
+              
+              <div class="cart-left-content">
+                  <img src="/img/big-bag.png" alt="" class="cart-left-img">
+                <div class="cart-left-title">
+                  <p>Ba Lo</p>
+                  <div class="cart-left-link">
+                    <div class="product-trending-content-link-box">
+                      <a href="#">
+                           <div class="trending-content-link cart-left-link-text"><p> REMOVE</p></div>
+                      </a> | 
+                      <a href="#">
+                           <div class="trending-content-link cart-left-link-text"><p> FAVORITE</p></div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-left-wantity">
+                  <input type="number" id="quantity" name="quantity" min="1" max="100" value="1">
+                </div>
+                <div class="cart-left-price">
+                  <span>$5000</span>
+                </div>
+              </div>
+
+              <div class="cart-left-content">
+                  <img src="/img/big-bag.png" alt="" class="cart-left-img">
+                <div class="cart-left-title">
+                  <p>Ba Lo</p>
+                  <div class="cart-left-link">
+                    <div class="product-trending-content-link-box">
+                      <a href="#">
+                           <div class="trending-content-link cart-left-link-text"><p> REMOVE</p></div>
+                      </a> | 
+                      <a href="#">
+                           <div class="trending-content-link cart-left-link-text"><p> FAVORITE</p></div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-left-wantity">
+                  <input type="number" id="quantity" name="quantity" min="1" max="100" value="1">
+                </div>
+                <div class="cart-left-price">
+                  <span>$5000</span>
+                </div>
+              </div>
+            </div>
+            <div class="cart-right">
+              <form action="" class="cart-right-from">
+                <div class="cart-right-header">
+                  <p>Oder Summary</p>
+                </div>
+                <div class="cart-right-body">
+                  <div class="cart-right-content">
+                    <p>Subtotal</p>
+                    <p class="cart-right-content-fw">$45.99</p>
+                </div>
+                  <div class="cart-right-content">
+                    <p>Shipping</p>
+                    <p class="cart-right-content-fw">Free</p>
+                </div>
+                  <div class="cart-right-content">
+                    <p>Add coupon code</p>
+                </div>
+                </div>
+              <div class="cart-right-content">
+                <p>Total</p>
+                <p class="cart-right-content-fw">$1000.00</p>
+            </div>
+              <div class="cart-right-content-link"><a href="#">CHECKOUT</a></div>
+              </form>
+            </div>
           </div>
         </section>
       </main>

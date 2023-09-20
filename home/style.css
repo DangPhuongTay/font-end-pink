@@ -58,7 +58,7 @@ body::before {
     top: 0;
     left: 0;
     height: 800px;
-    background: linear-gradient(0deg, rgba(223, 35, 30, 0) 0, #F2BED1 100%);
+    
 }
 body.active .burger::before {
     left: 0;
